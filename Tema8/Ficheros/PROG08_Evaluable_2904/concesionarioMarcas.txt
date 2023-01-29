@@ -1,0 +1,30 @@
+
+Vehiculo: 
+Marca: nissan
+Matricula: 1111AAA
+Número de Kms: 100
+Fecha matriculación: 1989-05-02
+Descripcion: Coche prueba
+Precio: 5000
+Propietario: Alejandro
+DNI Propietario: 42418602R
+
+Vehiculo: 
+Marca: opel
+Matricula: 2222AAA
+Número de Kms: 200
+Fecha matriculación: 1995-11-29
+Descripcion: Coche prueba
+Precio: 2500
+Propietario: Eduardo
+DNI Propietario: 42418603W
+
+Vehiculo: 
+Marca: citroen
+Matricula: 3333AAA
+Número de Kms: 50
+Fecha matriculación: 2000-04-14
+Descripcion: Coche prueba
+Precio: 1000
+Propietario: Jose
+DNI Propietario: 42196820P
