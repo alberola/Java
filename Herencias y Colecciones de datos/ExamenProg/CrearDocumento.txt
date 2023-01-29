@@ -1,0 +1,24 @@
+ponerle implements Serializable a la clase
+
+Al empezar el programa.
+
+try ( ObjectInputStream in = new ObjectInputStream(
+		new FileInputStream("nombre.dat"))) {
+	sociosLista = (TreeSet<Socio>) in.readObject();
+	} catch (IOException ex) {
+		System.out.println("Listado vacio.");
+	} catch (ClassNotFoundException ex) {
+		System.out.println(ex);
+	}
+
+Copiar al final del programa:
+
+try ( ObjectOutputStream out = new ObjectOutputStream(
+		new FileOutputStream("nombre.dat"))) {
+	out.writeObject(sociosLista);
+	} catch (IOException ex) {
+		System.out.println(ex);
+	} 
+
+*Cambiar nombre.dat por el nombre que queramos.
+*Cambiar sociosLista por la lista con la que estemos trabajando.
